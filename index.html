@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/4.0.0/iconfont/material-icons.min.css" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <h2>Currency Converter</h2>
+        <form action="">
+            <div class="amount">
+              <p>Enter Amount</p>
+             <input type="text" value="1">   
+            </div>
+            <div class="dropdown">
+                <div class="from">
+                    <p>From</p>
+                    <div class="select-container">
+                        <img src="https://flagsapi.com/US/flat/64.png" alt="countries flags">
+                        <select name="from" id="">
+                        </select>
+                    </div>
+                </div>
+                <div class="img"><img src="https://cdn-icons-png.flaticon.com/512/16528/16528718.png" alt=""></div>
+                
+
+                <div class="to">
+                    <p>To</p>
+                    <div class="select-container">
+                        <img src="https://flagsapi.com/IN/flat/64.png" alt="countries flags">
+                        <select name="to" id="">
+                            
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="msg">1USD=80INR</div>
+            <button class="btn">Exchange the value</button>
+
+        </form> 
+    </div>
+
+    <script src="code.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
